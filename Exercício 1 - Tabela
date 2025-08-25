@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tabela de horarios de aulas, com materia, nome de prof e horario.</title>
+	</head>
+	<body>
+		<h2> Horário Aulas </h2>
+		<table width="500" border= "2" cellspacing="0" cellpadding="5" bodercolor="Green">
+			<tr>
+				<th>Matéria</th>
+				<th>Prof. Nome</th>
+				<th>Horário 24h</th>
+			</tr>
+			<tr>
+			<td>Português</td>
+			<td>Fernanda Oliveira</td>
+			<td>8:00 - 9:00</td>
+			</tr>
+
+			<tr>
+			<td>História</td>
+			<td>Letícia Santos</td>
+			<td>9:20 - 10:20</td>
+			</tr>
+
+			<tr>
+			<td>Física</td>
+			<td>Maria Goularte</td>
+			<td>10:20 - 11:20</td>
+			</tr>
+
+			<tr>
+			<td>Geografia</td>
+			<td>Cristine Pereira</td>
+			<td>11:20 - 12:20</td>
+			<tr>
+	</body>
+	
+</html>
+
+
+
+
+
