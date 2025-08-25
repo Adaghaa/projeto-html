@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tabela e Formulário</title>
+	</head>
+	
+	<body>
+	  
+		<h2>Lista de Produtos</h2>
+
+		<table width="500" border = "1" cellspacing="0" cellpadding="5" bordercolor="Black">
+			<tr>
+				<th>Produto</th>
+				<th>Preço R$</th>
+				<th>Quantidade Estoque</th>
+			</tr>
+		
+			<tr>
+				<td>Monitor 4k</td>
+				<td>2.199.99</td>
+				<td>98</td>
+			</tr>
+			
+			<tr>
+				<td>Garrafa Stanley</td>
+				<td>119.99</td>
+				<td>216</td>
+			</tr>
+
+			<tr>
+				<td>Prancha Azul H2MTR</td>
+				<td>97.49</td>
+				<td>23</td>
+			</tr>
+		</table>
+<br><br>
+
+
+		<h2>Formulário Pedido</h2>
+
+		<form action="Pedido.html" method="post">
+		  
+		<label for="name">Nome Cliente:</label><br>
+		<input type="text" id="name" name="name" placeholder="Seu nome aqui" required><br><br>
+		
+		<label for="produto">Compra:</label><br>
+		<select name="compras" id="compras">
+			<option value=""Escolha uma opção</option>
+			<option value="monitor4k">Monitor 4k</option>
+			<option value="garrafastanley">Garrafa Stanley</option>
+			<option value="pranchah2mtr">Prancha Azul H2MTR</option>
+		</select><br>
+		
+		<label for="quant"><br>Quantidade:</label><br>
+		<input type="number" id="quant" name="quant"min="1" max="999"><br><br>
+		<input type="submit" value="Enviar Pedido">
+		</form>
+		
+	</body>
+	
+</html>
+
+
+
+
+
